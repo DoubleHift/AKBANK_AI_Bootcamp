@@ -17,6 +17,14 @@
 
 YDS/YÖKDİL RAG Quiz Generator, Retrieval Augmented Generation (RAG) teknolojisi kullanarak konuya özel İngilizce sınav soruları üreten akıllı bir uygulamadır. Geleneksel sabit soru bankaları yerine, kullanıcının belirlediği herhangi bir konuda anlamlı ve bağlamsal sorular oluşturur.
 
+## 🛠️ Teknolojik Yapı
+- **Frontend**:	Streamlit
+- **AI Model**: Google Gemini 2.5 Flash
+- **RAG Framework**: Özel Pipeline
+- **Vektör Veritabanı**: Chroma DB
+- **Veri İşleme**: PDFplumber, LangChain
+
+
 ## 🎯 Features
 
 ### 🤖 Smart Question Generation
@@ -125,3 +133,17 @@ streamlit run app.py
 - Soru İnceleme: Her soru için detaylı açıklamalar
 
 - Performans İstatistikleri: Güçlü ve zayıf yönlerin tespiti
+
+```bash
+yds-rag-quiz-generator/
+├── app.py                 # Ana Streamlit uygulaması
+├── rag_pipeline.py        # RAG soru üretim motoru
+├── data_prep.py           # PDF işleme ve veri hazırlama
+├── requirements.txt       # Python bağımlılıkları
+├── .env.example           # Çevre değişkenleri şablonu
+├── .gitignore            # Git ignore kuralları
+├── README.md              # Proje dokümantasyonu
+│
+├── data/                  # İşlenmiş metin verileri
+│   └── cleaned_corpus.txt
+```
