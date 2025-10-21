@@ -34,7 +34,10 @@ YDS/YÖKDİL RAG Quiz Generator, Retrieval Augmented Generation (RAG) teknolojis
 - **Streamlit UI**: Modern ve responsive arayüz
 - **Topic Customization**: Her konuda sınav oluşturma
 - **Flexible Settings**: Soru sayısı ve tipi özelleştirme
-
+##🚀 Quick Start
+###Prerequisites
+-Python 3.8 or higher
+-Google Gemini API Key href(Get it here)
 ## 🏗️ Architecture
 
 ```mermaid
@@ -47,3 +50,4 @@ graph TB
     F --> G[Quiz Engine]
     G --> H[Streamlit UI]
     H --> I[Results & Analytics]
+🚀 Quick Start
