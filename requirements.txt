@@ -1,0 +1,26 @@
+# Core Streamlit
+streamlit==1.28.0
+
+# Pydantic for data validation
+pydantic==2.5.0
+
+# Google Gemini AI
+google-generativeai==0.3.0
+
+# Environment variables
+python-dotenv==1.0.0
+
+# PDF processing
+pdfplumber==0.10.3
+
+# LangChain (optional - simplified version)
+langchain==0.0.354
+langchain-community==0.0.29
+
+# Vector database (optional - simplified version)
+chromadb==0.4.18
+
+# Additional dependencies
+typing-extensions==4.8.0
+requests==2.31.0
+urllib3==1.26.18
