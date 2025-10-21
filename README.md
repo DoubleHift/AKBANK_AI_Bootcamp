@@ -58,7 +58,7 @@ graph TB
 ```
 1. **Depoyu Klonlayın**
 ```bash
-git clone https://github.com/your-username/yds-rag-quiz-generator.git
+git clone https://github.com/DoubleHift/AKBANK_AI_Bootcamp
 cd yds-rag-quiz-generator
 ```
 2. **Sanal Ortam Oluşturun ve Aktif Edin**
