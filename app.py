@@ -26,35 +26,18 @@ class Quiz(BaseModel):
 BOŞLUK_DOLDURMA_SORULARI = [
     {
         "question_id": 1,
-        "question_text": "The rapid ______ of artificial intelligence across various sectors is expected to significantly reshape global labor markets, potentially leading to both job displacement and the creation of new roles requiring specialized skills.",
+        "question_text": "The rapid ______ of artificial intelligence across various sectors is expected to significantly reshape global labor markets.",
         "options": {"A": "stagnation", "B": "proliferation", "C": "retraction", "D": "curtailment", "E": "impediment"},
         "correct_option": "B",
-        "explanation": "'Proliferation' (yayılma) kelimesi, yapay zekanın hızlı bir şekilde yayılması anlamına gelir ve bağlama uygundur.",
-        "question_type": "boşluk doldurma"
-    },
-    {
-        "question_id": 2,
-        "question_text": "Despite concerns about data privacy and ethical implications, the widespread adoption of digital technologies ______ an unparalleled opportunity for developing nations to leapfrog traditional stages of economic growth.",
-        "options": {"A": "has presented", "B": "presenting", "C": "to present", "D": "having presented", "E": "will have presented"},
-        "correct_option": "A",
-        "explanation": "'Has presented' doğru zaman yapısını kullanır ve günümüze kadar devam eden bir durumu ifade eder.",
-        "question_type": "boşluk doldurma"
-    },
-    {
-        "question_id": 3,
-        "question_text": "As global supply chains become increasingly interconnected and reliant on digital infrastructure, they are also becoming more vulnerable to sophisticated cyber-attacks, ______ the urgent need for enhanced international cooperation in cybersecurity.",
-        "options": {"A": "thereby mitigating", "B": "consequently alleviating", "C": "thus underscoring", "D": "conversely diminishing", "E": "notwithstanding reducing"},
-        "correct_option": "C",
-        "explanation": "'Thus underscoring' (böylece vurgulayarak) ifadesi, siber saldırıların uluslararası işbirliği ihtiyacını vurguladığı anlamına gelir.",
+        "explanation": "'Proliferation' means rapid increase or spread, which fits the context of AI expansion.",
         "question_type": "boşluk doldurma"
     }
 ]
 
-# --- PARAGRAF SORULARI ---
 PARAGRAF_SORULARI = [
     {
         "question_id": 1,
-        "question_text": "Reading comprehension: The concept of sustainable development has gained significant traction in recent decades, primarily due to growing concerns about environmental degradation and resource depletion. This approach emphasizes meeting the needs of the present without compromising the ability of future generations to meet their own needs. It involves a careful balance between economic growth, environmental protection, and social equity. What is the primary focus of sustainable development?",
+        "question_text": "Reading comprehension: The concept of sustainable development has gained significant traction in recent decades. This approach emphasizes meeting present needs without compromising future generations' ability to meet their own needs. What is the primary focus of sustainable development?",
         "options": {
             "A": "Maximizing current economic growth at all costs",
             "B": "Balancing present needs with future generations' requirements", 
@@ -63,26 +46,11 @@ PARAGRAF_SORULARI = [
             "E": "Prioritizing social equity over economic considerations"
         },
         "correct_option": "B",
-        "explanation": "Metinde sürdürülebilir kalkınmanın 'mevcut ihtiyaçları, gelecek nesillerin kendi ihtiyaçlarını karşılama yeteneğinden ödün vermeden karşılama' üzerine odaklandığı belirtilmektedir.",
-        "question_type": "paragraf sorusu"
-    },
-    {
-        "question_id": 2,
-        "question_text": "Reading comprehension: The Industrial Revolution marked a major turning point in history. During this period, which began in the late 18th century, manual labor was increasingly replaced by machines powered by steam and later electricity. This transformation led to unprecedented economic growth and urbanization but also resulted in significant social and environmental challenges. What was the primary technological innovation that characterized the Industrial Revolution?",
-        "options": {
-            "A": "The replacement of manual labor with machine-based manufacturing",
-            "B": "The discovery of new agricultural techniques", 
-            "C": "The development of computer technology",
-            "D": "The invention of the printing press",
-            "E": "The exploration of space"
-        },
-        "correct_option": "A",
-        "explanation": "Metin, Endüstri Devrimi'nin temel özelliğinin makineleşme ve el emeğinin makinelerle değiştirilmesi olduğunu vurgulamaktadır.",
+        "explanation": "The text emphasizes balancing present and future needs.",
         "question_type": "paragraf sorusu"
     }
 ]
 
-# --- KELİME ANLAMI SORULARI ---
 KELİME_ANLAMI_SORULARI = [
     {
         "question_id": 1,
@@ -95,26 +63,11 @@ KELİME_ANLAMI_SORULARI = [
             "E": "Temporary"
         },
         "correct_option": "B",
-        "explanation": "'Ubiquitous' kelimesi 'her yerde bulunan, yaygın' anlamına gelir ve 'widespread' ile eş anlamlıdır.",
-        "question_type": "kelime anlamı"
-    },
-    {
-        "question_id": 2,
-        "question_text": "Choose the word that is closest in meaning to 'ambiguous':",
-        "options": {
-            "A": "Clear",
-            "B": "Vague", 
-            "C": "Simple",
-            "D": "Direct",
-            "E": "Obvious"
-        },
-        "correct_option": "B",
-        "explanation": "'Ambiguous' kelimesi 'belirsiz, iki anlamlı' demektir ve 'vague' ile eş anlamlıdır.",
+        "explanation": "'Ubiquitous' means found everywhere, making 'widespread' the closest synonym.",
         "question_type": "kelime anlamı"
     }
 ]
 
-# --- DİL BİLGİSİ SORULARI ---
 DİL_BİLGİSİ_SORULARI = [
     {
         "question_id": 1,
@@ -127,30 +80,15 @@ DİL_BİLGİSİ_SORULARI = [
             "E": "have"
         },
         "correct_option": "B",
-        "explanation": "Type 3 conditional (geçmişe yönelik koşul) yapısında 'if + past perfect, would + have + V3' kullanılır.",
-        "question_type": "dil bilgisi"
-    },
-    {
-        "question_id": 2,
-        "question_text": "Choose the correct sentence structure:",
-        "options": {
-            "A": "Neither the students nor the teacher are coming.",
-            "B": "Neither the students nor the teacher is coming.", 
-            "C": "Neither the students or the teacher is coming.",
-            "D": "Neither the students nor the teacher were coming.",
-            "E": "Neither the students or the teacher are coming."
-        },
-        "correct_option": "B",
-        "explanation": "'Neither...nor' yapısında fiil, en yakın özneye göre çekimlenir. 'Teacher' tekil olduğu için 'is' kullanılır.",
+        "explanation": "Type 3 conditional requires 'if + past perfect, would + have + past participle'.",
         "question_type": "dil bilgisi"
     }
 ]
 
-# --- CLOZE TEST SORULARI ---
 CLOZE_TEST_SORULARI = [
     {
         "question_id": 1,
-        "question_text": "Cloze test: Climate change represents one of the most pressing challenges of our time. The ______ of greenhouse gases into the atmosphere has led to a gradual increase in global temperatures. This phenomenon, ______ as global warming, has far-reaching consequences for ecosystems worldwide. Scientists warn that without immediate action, the impacts could become ______.",
+        "question_text": "Cloze test: Climate change represents one of the most pressing challenges of our time. The ______ of greenhouse gases has led to increased global temperatures. This phenomenon has far-reaching consequences for ecosystems worldwide.",
         "options": {
             "A": "reduction, known, manageable",
             "B": "release, referred, irreversible", 
@@ -159,21 +97,7 @@ CLOZE_TEST_SORULARI = [
             "E": "production, named, insignificant"
         },
         "correct_option": "B",
-        "explanation": "Bağlam gereği 'release' (salınım), 'referred' (adlandırılan) ve 'irreversible' (geri dönülemez) kelimeleri metnin anlamına uygundur.",
-        "question_type": "cloze test"
-    },
-    {
-        "question_id": 2,
-        "question_text": "Cloze test: The development of renewable energy sources has ______ accelerated in recent years. Solar and wind power, in particular, have become increasingly ______ due to technological advancements and decreasing costs. Many countries are now ______ these clean energy options to reduce their carbon emissions.",
-        "options": {
-            "A": "slowly, expensive, ignoring",
-            "B": "rapidly, affordable, adopting", 
-            "C": "gradually, complicated, rejecting",
-            "D": "slightly, efficient, delaying",
-            "E": "never, popular, avoiding"
-        },
-        "correct_option": "B",
-        "explanation": "'Rapidly' (hızlı), 'affordable' (uygun fiyatlı) ve 'adopting' (benimsemek) kelimeleri yenilenebilir enerji bağlamına uygundur.",
+        "explanation": "'Release', 'referred', and 'irreversible' fit the context of climate change discussion.",
         "question_type": "cloze test"
     }
 ]
@@ -260,7 +184,6 @@ def update_timer():
         elapsed_time = time.time() - st.session_state.start_time
         st.session_state.remaining_time = max(0, st.session_state.time_limit - elapsed_time)
         
-        # Zaman dolduysa sınavı bitir
         if st.session_state.remaining_time <= 0:
             st.session_state.quiz_completed = True
             st.session_state.remaining_time = 0
@@ -271,75 +194,40 @@ def enhance_simulated_question_with_topic(question, topic, question_type):
     """Simüle edilmiş soruyu konuya uygun hale getirir"""
     question_text = question.get('question_text', '')
     
-    # Konuya özel dönüşümler
     if question_type == "boşluk doldurma":
-        replacements = [
-            ("artificial intelligence", topic),
-            ("digital technologies", f"{topic} technologies"),
-            ("sustainable development", f"{topic} development"),
-            ("global economy", f"{topic} economy"),
-            ("scientific research", f"{topic} research"),
-            ("climate change", topic),
-            ("globalization", topic),
-            ("technology", topic)
-        ]
-        
-        for old, new in replacements:
-            if old.lower() in question_text.lower():
-                question_text = question_text.replace(old, new)
-                question_text = question_text.replace(old.title(), new)
-                break
-        else:
-            # Hiçbiri yoksa başa ekle
-            if not question_text.startswith("In the context of"):
-                question_text = f"In the context of {topic}, {question_text[0].lower() + question_text[1:]}"
+        if not question_text.startswith("In the context of"):
+            question_text = f"In the context of {topic}, {question_text[0].lower() + question_text[1:]}"
     
     elif question_type == "paragraf sorusu":
         if "Reading comprehension:" in question_text:
             question_text = question_text.replace("Reading comprehension:", f"Reading comprehension about {topic}:")
-        elif "The concept of" in question_text:
-            question_text = question_text.replace("The concept of", f"The concept of {topic}")
-    
-    elif question_type == "kelime anlamı":
-        if "Choose the word" in question_text and topic.lower() not in question_text.lower():
-            question_text = f"In {topic} context, {question_text}"
-    
-    elif question_type == "cloze test":
-        if "Cloze test:" in question_text:
-            question_text = question_text.replace("Cloze test:", f"Cloze test about {topic}:")
     
     question['question_text'] = question_text
     return question
 
 def get_random_question_type(previous_types, available_types):
-    """
-    Rastgele soru tipi seçer, aynı tipin arka arkaya max 2 kez gelmesini sağlar
-    """
+    """Akıllı soru tipi seçimi"""
     if len(previous_types) < 2:
-        # İlk 2 soru için herhangi bir tip seçilebilir
         return random.choice(available_types)
     
-    # Son 2 sorunun tipini kontrol et
     last_two = previous_types[-2:]
-    
-    # Eğer son 2 soru aynı tipse, farklı bir tip seç
     if len(set(last_two)) == 1:
-        # Aynı tipten 2 kez üst üste geldi, farklı bir tip seç
         different_types = [t for t in available_types if t != last_two[0]]
         if different_types:
             return random.choice(different_types)
     
-    # Normal rastgele seçim
     return random.choice(available_types)
 
 def generate_quiz(topic, num_questions, question_type):
-    """RAG ile istenen sayıda ve tipte soruyu üretir."""
+    """RAG veya simülasyon ile soru üretir"""
     
-    # Her zaman RAG kullanmaya çalış
-    use_rag = RAG_AVAILABLE
+    # Önce data klasörünü kontrol et
+    if not os.path.exists("data"):
+        os.makedirs("data")
     
-    if use_rag:
-        with st.spinner(f"🤖 RAG ile {num_questions} {question_type} sorusu üretiliyor..."):
+    # RAG kullanmayı dene
+    if RAG_AVAILABLE:
+        with st.spinner(f"🤖 RAG ile {num_questions} soru üretiliyor..."):
             rag_questions = generate_quiz_with_rag(topic, num_questions, question_type)
         
         if rag_questions and len(rag_questions) > 0:
@@ -355,22 +243,12 @@ def generate_quiz(topic, num_questions, question_type):
             st.session_state.start_time = time.time()
             st.session_state.remaining_time = st.session_state.time_limit
             
-            # Soru tipi dağılımını göster
-            if question_type.lower() == "karışık":
-                type_count = {}
-                for q in rag_questions:
-                    q_type = q.get('question_type', 'unknown')
-                    type_count[q_type] = type_count.get(q_type, 0) + 1
-                type_info = ", ".join([f"{k}: {v}" for k, v in type_count.items()])
-                st.toast(f"✅ RAG ile {num_questions} soru üretildi! Dağılım: {type_info}", icon='🤖')
-            else:
-                st.toast(f"✅ RAG ile {num_questions} {question_type} sorusu üretildi!", icon='🤖')
-            
+            st.toast(f"✅ RAG ile {num_questions} soru üretildi!", icon='🤖')
             st.rerun()
             return
     
     # RAG başarısız olursa simülasyona geç
-    st.warning("🤖 RAG başarısız oldu, simülasyon modu ile devam ediliyor...")
+    st.info("🤖 Simülasyon modu ile sorular hazırlanıyor...")
     
     simulated_quiz_data = []
     mixed_mode = (question_type.lower() == "karışık")
@@ -379,18 +257,13 @@ def generate_quiz(topic, num_questions, question_type):
 
     for i in range(num_questions):
         if mixed_mode:
-            # Akıllı karışık mod - aynı tipin üst üste gelmesini önle
             selected_type = get_random_question_type(previous_question_types, available_question_types)
             previous_question_types.append(selected_type)
-            
-            # Listeyi sınırla (sadece son 2'yi tut)
             if len(previous_question_types) > 2:
                 previous_question_types = previous_question_types[-2:]
         else:
-            # Belirli soru tipi seçimi
             selected_type = question_type
         
-        # Seçilen tipe göre kaynak belirle
         if selected_type == "boşluk doldurma":
             question_source = BOŞLUK_DOLDURMA_SORULARI
         elif selected_type == "paragraf sorusu":
@@ -405,14 +278,11 @@ def generate_quiz(topic, num_questions, question_type):
         original_question = question_source[i % len(question_source)]
         new_question_id = i + 1
         
-        # Sorunun kopyasını oluştur (Benzersiz ID'ler için)
         new_question = original_question.copy()
         new_question['question_id'] = new_question_id
         new_question['question_type'] = selected_type
         
-        # Konuyu soru metnine entegre et
         new_question = enhance_simulated_question_with_topic(new_question, topic, selected_type)
-        
         simulated_quiz_data.append(new_question)
     
     st.session_state.quiz_data = simulated_quiz_data 
@@ -423,14 +293,11 @@ def generate_quiz(topic, num_questions, question_type):
     st.session_state.quiz_completed = False
     st.session_state.question_type = question_type
     
-    # Zaman sayacını başlat
     st.session_state.time_limit = calculate_time_limit(num_questions, question_type)
     st.session_state.start_time = time.time()
     st.session_state.remaining_time = st.session_state.time_limit
     
-    mode_text = "karışık mod" if mixed_mode else f"{question_type} modu"
-    source_text = "simülasyon"
-    st.toast(f"📝 {source_text} ile {num_questions} soruluk {mode_text} başlatıldı! Konu: {topic}", icon='🎯')
+    st.toast(f"📝 {num_questions} soruluk sınav başlatıldı! Konu: {topic}", icon='🎯')
     st.rerun()
 
 # --- 5. Navigasyon Fonksiyonu ---
@@ -467,10 +334,8 @@ def display_timer():
         
         update_timer()
         
-        # İlerleme yüzdesi
         progress = st.session_state.remaining_time / st.session_state.time_limit
         
-        # Renk belirleme
         if progress > 0.5:
             color = "green"
         elif progress > 0.25:
@@ -478,7 +343,6 @@ def display_timer():
         else:
             color = "red"
         
-        # Zaman göstergesi
         col1, col2 = st.columns([3, 1])
         with col1:
             st.progress(progress, text=f"Kalan Süre: {format_time(st.session_state.remaining_time)}")
@@ -486,7 +350,6 @@ def display_timer():
             st.markdown(f"<span style='color: {color}; font-weight: bold; font-size: 18px;'>{format_time(st.session_state.remaining_time)}</span>", 
                        unsafe_allow_html=True)
         
-        # Uyarı mesajları
         if st.session_state.remaining_time < 60:
             st.warning("⏰ Son 1 dakika! Hızlanın!")
         elif st.session_state.remaining_time < 300:
@@ -497,7 +360,6 @@ def display_question(question: dict, num_questions: int):
     q_id = question.get('question_id', st.session_state.current_question_index + 1)
     q_type = question.get('question_type', 'boşluk doldurma')
     
-    # Soru tipi badge'ı
     type_colors = {
         "boşluk doldurma": "blue",
         "paragraf sorusu": "green", 
@@ -509,21 +371,18 @@ def display_question(question: dict, num_questions: int):
     
     col1, col2 = st.columns([3, 1])
     with col1:
-        # İlerleme Çubuğu
         progress = (st.session_state.current_question_index + 1) / num_questions
         st.progress(progress, text=f"Soru {q_id} / {num_questions}")
     with col2:
         st.markdown(f"<div style='background-color: {color}; color: white; padding: 8px; border-radius: 5px; text-align: center; font-weight: bold;'>{q_type.upper()}</div>", 
                    unsafe_allow_html=True)
 
-    # Soru Metni
     q_text = question.get('question_text', 'Soru metni yüklenemedi.')
     st.markdown(f"**Soru {q_id}:** {q_text}") 
     
     options = question.get('options', {})
     current_answer = st.session_state.user_answers.get(q_id, None)
 
-    # Radyo Butonları
     if options:
         user_selection = st.radio(
             "Cevabınızı Seçin:",
@@ -543,7 +402,6 @@ def display_results():
     total_score = 0
     num_questions = len(st.session_state.quiz_data)
     
-    # Soru tipi analizi
     type_analysis = {}
     for question in st.session_state.quiz_data:
         q_type = question.get('question_type', 'bilinmiyor')
@@ -559,7 +417,6 @@ def display_results():
             type_analysis[q_type]['correct'] += 1
             total_score += 1
     
-    # Geçen süreyi hesapla
     if st.session_state.start_time:
         elapsed_time = time.time() - st.session_state.start_time
         time_spent = format_time(elapsed_time)
@@ -568,7 +425,6 @@ def display_results():
     
     st.title("✅ Sınav Sonuçlarınız")
     
-    # Bilgi kartı
     col1, col2, col3 = st.columns(3)
     with col1:
         st.metric("Soru Tipi", st.session_state.question_type)
@@ -577,14 +433,12 @@ def display_results():
     with col3:
         st.metric("Geçen Süre", time_spent)
     
-    # Yeniden Başlat Butonu
     if st.button("🔄 Yeni Sınav Başlat", type="primary", use_container_width=True):
         reset_quiz_completely()
         return
     
     st.markdown("---")
     
-    # Soru tipi analizi
     mixed_mode = (st.session_state.question_type.lower() == "karışık")
     if mixed_mode and len(type_analysis) > 1:
         st.subheader("📊 Soru Tipi Bazında Performans")
@@ -595,7 +449,6 @@ def display_results():
             st.write(f"**{q_type}:** {correct}/{total} (%{percentage:.1f})")
         st.markdown("---")
     
-    # Detaylı sonuçlar
     for question in st.session_state.quiz_data:
         q_id = question.get('question_id', 0)
         user_answer = st.session_state.user_answers.get(q_id)
@@ -611,7 +464,6 @@ def display_results():
         st.markdown(f"### {icon} Soru {q_id} - {q_type}")
         st.markdown(f"**{question['question_text']}**")
         
-        # Seçenekleri göster
         for key, value in question['options'].items():
             if key == question['correct_option']:
                 st.markdown(f"<span style='color:green; font-weight:bold;'>✓ {key}) {value} (Doğru Cevap)</span>", unsafe_allow_html=True)
@@ -623,11 +475,9 @@ def display_results():
         st.markdown(f"**Açıklama:** {question['explanation']}")
         st.markdown("---")
 
-    # Skor kartı
     percentage = (total_score / num_questions) * 100
     st.success(f"## 🎉 Toplam Skor: {total_score} / {num_questions} (%{percentage:.1f})")
     
-    # Performans değerlendirmesi
     if percentage >= 80:
         st.balloons()
         st.success("🏆 Mükemmel! Çok iyi bir performans gösterdiniz!")
@@ -638,7 +488,6 @@ def display_results():
     else:
         st.error("📚 Daha fazla çalışma gerekiyor, pes etmeyin!")
     
-    # Alt kısımda tekrar yeni sınav butonu
     st.markdown("---")
     if st.button("🔄 Yeni Sınav Oluştur", type="primary", use_container_width=True):
         reset_quiz_completely()
@@ -652,11 +501,10 @@ def main():
     )
     
     st.title("📚 RAG Temelli YDS/YÖKDİL Bağlamsal Sınav Oluşturucu")
-    st.subheader("Akbank GenAI Bootcamp Projesi: Yeni Nesil Proje Kampı")
+    st.subheader("Akbank GenAI Bootcamp Projesi")
 
     initialize_session_state()
 
-    # Zaman güncellemesi
     if st.session_state.quiz_started and not st.session_state.quiz_completed:
         update_timer()
 
@@ -664,7 +512,6 @@ def main():
         display_results()
     
     elif st.session_state.quiz_started and st.session_state.quiz_data:
-        # Zaman göstergesi
         display_timer()
         st.markdown("---")
         
@@ -672,14 +519,12 @@ def main():
         num_questions = len(st.session_state.quiz_data)
         question_to_display = st.session_state.quiz_data[current_index] 
         
-        # Soru görüntüleme
         display_question(question_to_display, num_questions) 
         st.markdown("---")
         
         handle_navigation(num_questions)
     
     else:
-        # Sınav başlatma ekranı
         st.markdown("### 🚀 Sınav Oluşturucu")
         st.markdown("Aşağıdaki formu doldurarak sınavınızı oluşturun.")
         
@@ -693,7 +538,6 @@ def main():
                     help="Sınav sorularının odağını belirleyin"
                 )
                 
-                # Radio buton ile soru tipi seçimi
                 question_type = st.radio(
                     "🎯 Soru Tipi:",
                     options=["karışık", "boşluk doldurma", "paragraf sorusu", "kelime anlamı", "dil bilgisi", "cloze test"],
@@ -711,19 +555,9 @@ def main():
                     help="1-80 arasında soru sayısı seçin"
                 )
                 
-                # Tahmini süre hesaplama
                 estimated_time = calculate_time_limit(num_questions, question_type) / 60
                 st.info(f"⏱️ Tahmini Süre: {estimated_time:.1f} dakika")
             
-            st.markdown("**Soru Tipi Açıklamaları:**")
-            st.markdown("- **Karışık**: Tüm soru tiplerinden dengeli dağılım")
-            st.markdown("- **Boşluk Doldurma**: Klasik YDS boşluk doldurma soruları")
-            st.markdown("- **Paragraf Sorusu**: Okuma parçası ve soruları")
-            st.markdown("- **Kelime Anlamı**: Kelime bilgisi ve eş anlamlılar")
-            st.markdown("- **Dil Bilgisi**: Gramer ve yapı soruları")
-            st.markdown("- **Cloze Test**: Metin içi boşluk doldurma")
-            
-            # RAG durumunu göster
             if RAG_AVAILABLE:
                 st.success("🤖 RAG Sistemi: Aktif")
             else:

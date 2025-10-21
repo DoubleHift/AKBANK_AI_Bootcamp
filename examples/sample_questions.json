@@ -1,0 +1,32 @@
+{
+  "sample_questions": [
+    {
+      "question_id": 1,
+      "question_text": "The rapid development of artificial intelligence has ______ significant changes across various industries.",
+      "options": {
+        "A": "triggered",
+        "B": "reduced", 
+        "C": "prevented",
+        "D": "ignored",
+        "E": "complicated"
+      },
+      "correct_option": "A",
+      "explanation": "'Triggered' means started or initiated, which fits the context of AI development causing changes.",
+      "question_type": "boşluk doldurma"
+    },
+    {
+      "question_id": 2,
+      "question_text": "Reading comprehension: Climate change represents one of the most significant challenges facing humanity today. What is the primary focus of sustainable development?",
+      "options": {
+        "A": "Maximizing current economic growth",
+        "B": "Balancing present and future needs", 
+        "C": "Eliminating industrial activities",
+        "D": "Focusing only on environment",
+        "E": "Prioritizing social programs"
+      },
+      "correct_option": "B",
+      "explanation": "Sustainable development focuses on balancing present needs with future generations' requirements.",
+      "question_type": "paragraf sorusu"
+    }
+  ]
+}
