@@ -47,15 +47,27 @@ YDS/YÖKDİL RAG Quiz Generator, Retrieval Augmented Generation (RAG) teknolojis
 
 ```mermaid
 graph TB
-    A[User Input] --> B[Topic & Settings]
+    A[Kullanıcı Girişi] --> B[Konu & Ayarlar]
     B --> C[RAG Pipeline]
-    C --> D[Vector Database]
+    C --> D[Vektör Veritabanı]
     D --> E[Gemini AI]
-    E --> F[Question Generation]
-    F --> G[Quiz Engine]
+    E --> F[Soru Üretimi]
+    F --> G[Quiz Motoru]
     G --> H[Streamlit UI]
-    H --> I[Results & Analytics]
+    H --> I[Sonuçlar & Analitik]
 ```
+## 📊 Veri Seti Bilgileri
+
+### 🎯 Örnek Veri Seti
+**Veri seti şunları içerir**:
+
+- **Akademik kelime bilgisi** ve karmaşık cümle yapıları
+- **Çeşitli konular**: teknoloji, çevre, eğitim, sağlık, ekonomi
+- **YDS/YÖKDİL seviyesine** uygun içerik
+- **Temiz, işlenmiş metin** - RAG pipeline'ı için hazır
+
+### **Projenini temelinde yapılan çalışmada ÖSYM ait sorular üstünde çalışılmış olup telif hakları sebebiyle kaldırılmıştır**.Sorular ÖSYM'nin kendi sitesinden alınıp filigran kaldırma işlemi uygulanınıp pdfplumber ile işlenerek RAG için uygun hale getirilmiştir.**Bu proje, YDS/YÖKDİL sınav hazırlığı için özel olarak hazırlanmış **örnek akademik İngilizce veri seti** içermektedir.**
+
 1. **Depoyu Klonlayın**
 ```bash
 git clone https://github.com/DoubleHift/AKBANK_AI_Bootcamp
@@ -91,6 +103,15 @@ streamlit run app.py
 6. **Tarayıcıda Açın**
 - http://localhost:8501 adresine gidin
 - Uygulama otomatik olarak açılacaktır
+
+### 🔧 Kendi Veri Setinizi Kullanma
+Kendi materyallerinizi kullanmak için:
+
+1. **Metin kaynaklarınızı hazırlayın** (PDF, DOC, TXT dosyaları)
+2. **Veri hazırlama script'ini çalıştırın**:
+```bash
+python data_prep.py
+```
 
 ### 🔑 Gemini API Anahtarı Alma
 - Google AI Studio'yu ziyaret edin
@@ -135,15 +156,15 @@ streamlit run app.py
 - Performans İstatistikleri: Güçlü ve zayıf yönlerin tespiti
 
 ```bash
-yds-rag-quiz-generator/
+AKBANK_AI_Bootcamp/
 ├── app.py                 # Ana Streamlit uygulaması
 ├── rag_pipeline.py        # RAG soru üretim motoru
-├── data_prep.py           # PDF işleme ve veri hazırlama
+├── data_prep.py           # Veri hazırlama
 ├── requirements.txt       # Python bağımlılıkları
 ├── .env.example           # Çevre değişkenleri şablonu
-├── .gitignore            # Git ignore kuralları
 ├── README.md              # Proje dokümantasyonu
-│
-├── data/                  # İşlenmiş metin verileri
+├── data/                  # İşlenmiş veriler
 │   └── cleaned_corpus.txt
+└── examples/              # Örnek sorular
+    └── sample_questions.json
 ```
