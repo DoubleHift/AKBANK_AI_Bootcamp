@@ -168,3 +168,14 @@ AKBANK_AI_Bootcamp/
 └── examples/              # Örnek sorular
     └── sample_questions.json
 ```
+<img width="1920" height="875" alt="image" src="https://github.com/user-attachments/assets/6663aa67-678f-4794-a944-8c70f46a06da" />
+<img width="1808" height="148" alt="image" src="https://github.com/user-attachments/assets/71f63dc1-7ba6-4d5d-b964-ef55c60a0efa" />
+<img width="1919" height="879" alt="image" src="https://github.com/user-attachments/assets/e3e5f59e-a478-4269-99d8-603916895d2f" />
+<img width="461" height="95" alt="image" src="https://github.com/user-attachments/assets/69dbaa70-061e-4d97-9d12-a36afd3ab2ac" /> <img width="472" height="78" alt="image" src="https://github.com/user-attachments/assets/c3cbcbe7-2ce7-4de0-8048-892bf4d54274" /> <img width="468" height="87" alt="image" src="https://github.com/user-attachments/assets/32c65883-6694-4d22-8613-d5be62a28e07" />
+<img width="1851" height="578" alt="image" src="https://github.com/user-attachments/assets/43f16a64-f173-4c90-bf25-9ae6ad6437ec" />
+
+
+
+
+
+
